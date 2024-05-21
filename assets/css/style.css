@@ -1355,7 +1355,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .avatar-box img {
     display: block; /* ensures the image is a block element */
     width: 110px; /* Sets the width of the image */
-    height: 130px; /* Sets the height to be taller than the width */
+    height: 160px; /* Sets the height to be taller than the width */
     border-radius: 20px; /* Applies rounded corners to the image */
     object-fit: cover; /* Ensures the image covers the assigned dimensions, cropping as necessary */
     margin: auto; /* Center the image if there's additional space */
