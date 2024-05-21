@@ -591,8 +591,17 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 80px; /* Width of the box */
+  height: 80px; /* Height of the box */
 }
 
+.testimonials-avatar-box img {
+  max-width: 75%; /* Make sure the image doesn't exceed the container */
+  max-height: 75%; /* Make sure the image doesn't exceed the container */
+}
 .testimonials-item-title { margin-bottom: 7px; }
 
 .testimonials-text {
