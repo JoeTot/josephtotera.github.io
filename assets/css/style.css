@@ -837,8 +837,8 @@ main {
   padding: 2em 0;
   background-color: transparent; /* Changed to transparent */
 }
-.container {
-  width: 80%;
+.skills-container {
+  width: 100%;
   margin: auto;
   text-align: center;
 }
