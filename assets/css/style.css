@@ -753,16 +753,26 @@ main {
 }
 
 .clients-item {
-  min-width: 50%;
-  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px; /* Set the width of the box slightly larger than the image */
+  height: 90px; /* Set the height of the box slightly larger than the image */
+  background-color: #ffffff; /* Light grey background */
+  border-radius: 15px; /* Rounded corners */
+  padding: 10px; /* Optional padding */
+  box-sizing: border-box;
+  margin: 10px; /* Space between each box */
 }
 
 .clients-item img {
-  width: 100%;
-  filter: grayscale(1);
-  transition: var(--transition-1);
+  max-width: 150px; /* Ensure the image fits within the box */
+  max-height: 150px; /* Ensure the image fits within the box */
+  object-fit: contain; /* Maintain aspect ratio and fit within the box */
+  background-color: transparent; /* Ensure background is transparent */
+  filter: grayscale(1); /* Apply grayscale filter */
+  transition: var(--transition-1); /* Existing transition */
 }
-
 .clients-item img:hover { filter: grayscale(0); }
 
 
